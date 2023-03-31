@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- favicon link -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><span>My</span>portfolio</a>
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- light mode -->
+        <div class="bx bx-sun" id="lightmode-icon"></div>
+    </header>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Hi, I'm Hannah</h1>
+            <h2>A programmer</h2>
+            <p>I like building things on the web. </p>
+        </div>
+
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                alt="about-img">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus finibus mattis. Integer erat felis,
+                tristique in sapien id, malesuada vestibulum leo. Vivamus non ultrices nisl, vel rutrum lectus.
+                Phasellus vitae urna non lacus egestas dignissim at sed velit. Quisque tellus dolor, elementum eu
+                iaculis non, sodales et ipsum. Ut consectetur finibus risus. Nulla eget mi eget odio egestas sodales sed
+                et augue. Nulla ultrices pulvinar tortor, ut ultricies libero bibendum in. Nulla vulputate pulvinar
+                nulla, et sollicitudin nunc vulputate in.</p>
+            <!-- button design Do later -->
+            <a href="">More About</a>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="project" class="project">
+        <div class="main-text">
+            <h2>These are my <span>Projects</span></h2>
+        </div>
+
+        <div class="project-content">
+
+            <div class="row">
+                <!-- projetc one -->
+                <div id="project-one" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/quote.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#project-one"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#project-one"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="layer">
+                    <h5>project name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non elementum nunc, eget ultrices
+                        ante. Mauris facilisis, erat et gravida malesuada, nisi arcu aliquet nibh, ut feugiat urna purus
+                        non risus. Donec orci nisi, placerat non laoreet blandit, porta at nunc. Quisque porta lacus
+                        quis urna cursus, vitae dignissim quam sollicitudin. Curabitur pulvinar velit auctor condimentum
+                        commodo. Nam cursus sapien a egestas venenatis. Ut porta viverra metus eu sodales.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- projetc two -->
+            <div class="row">
+                <div id="project-two" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/journal.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/journal.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#project-two"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#project-two"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="layer">
+                    <h5>project name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non elementum nunc, eget ultrices
+                        ante. Mauris facilisis, erat et gravida malesuada, nisi arcu aliquet nibh, ut feugiat urna purus
+                        non risus. Donec orci nisi, placerat non laoreet blandit, porta at nunc. Quisque porta lacus
+                        quis urna cursus, vitae dignissim quam sollicitudin. Curabitur pulvinar velit auctor condimentum
+                        commodo. Nam cursus sapien a egestas venenatis. Ut porta viverra metus eu sodales.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="project-one" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/quote.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/quote.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#project-one"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#project-one"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="layer">
+                    <h5>project name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus finibus mattis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/quote.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/quote.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="layer">
+                    <h5>project name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus finibus mattis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <div class="contact-text">
+            <h2>Get in <span>Touch</span></h2>
+            <h4>if you have any project in your mind</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita
+                aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia
+                inventore?</p>
+
+            <div class="contact-list">
+                <li><a href=""><i class='bx bxs-phone'></i> 1234 5544 2222</a></li>
+                <li><a href=""><i class='bx bxs-envelope'></i> 123@gmial.com</a></li>
+            </div>
+        </div>
+
+        <!-- <div class="contac-form">
+            <form action="">
+                <input type="name" placeholder="Your name" required>
+                <input type="email" placeholder="Your email address" required>
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" placeholder="text" cols="30" rows="10"></textarea>
+                <button>Send Message</button>
+            </form> -->
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="copyright">
+            <p>© 2023 HY. LIAO</p>
+        </div>
+
+        <div class="to-top">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- custom js  -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
