@@ -30,3 +30,35 @@ darkMode.onclick = () => {
         document.querySelector("#contact_info_btn").classList.replace("btn-light", "btn-dark")
     }
 }
+
+$(document).ready(function () {
+    $('.skills').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        arrows: true,
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">&lt</button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button">&gt</button>',
+        responsive: [
+            {
+                breakpoint: 996,
+                settings: {
+                    slidesToShow: 6
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 5
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 3
+                }
+            }
+        ]
+    })
+});
